@@ -5,15 +5,17 @@ import { StyleSheet, Text, View } from 'react-native';
 //import Cena from './components/strangerthings/Cena';
 //import Personagem from './components/strangerthings/Personagem';
 //import Contador from './components/estados/Contador';
-//import VotaCidade from './components/estados/VotaCidade';
+import VotaCidade from './components/estados/VotaCidade';
 //import VariosEstilos from './components/estados/VariosEstilos';
 //import TamanhoFixo from './components/flex/TamanhoFixo';
 //import TamanhoDinamico from './components/flex/TamanhoDinamico';
-import Formulario from './components/evento/Formulario';
+//import Formulario from './components/evento/Formulario';
 
 export default function App() {
     return (
-            <Formulario/>
+        <View>
+            <VotaCidade/>
+        </View>
     );
 }
 
